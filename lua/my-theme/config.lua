@@ -1,13 +1,13 @@
 local config = {
 	defaults = {
-		theme = "dark",
+		theme = "light",
 		transparent = false,
 		italics = {
-			comments = true,
-			keywords = true,
-			functions = true,
-			strings = true,
-			variables = true,
+			comments = false,
+			keywords = false,
+			functions = false,
+			strings = false,
+			variables = false,
 			bufferline = false,
 		},
 		overrides = {},
