@@ -1,8 +1,8 @@
-local bufferline = require 'my-theme.integrations.bufferline'
-local cmp = require 'my-theme.integrations.cmp'
-local colorscheme = require 'my-theme.colorscheme'
-local config = require 'my-theme.config'
-local utils = require 'my-theme.utils'
+local bufferline = require 'aqua.integrations.bufferline'
+local cmp = require 'aqua.integrations.cmp'
+local colorscheme = require 'aqua.colorscheme'
+local config = require 'aqua.config'
+local utils = require 'aqua.utils'
 local theme = {}
 
 local function set_terminal_colors()
